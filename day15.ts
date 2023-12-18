@@ -1,0 +1,1 @@
+type BoxToys<T extends string, N extends number, L extends string[] = []> = N extends L["length"]? L: BoxToys<T, N, [...L, T]>

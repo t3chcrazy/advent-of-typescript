@@ -1,0 +1,1 @@
+My solutions for [typehero](https://typehero.dev/aot-2023)'s advent of typescript challenges

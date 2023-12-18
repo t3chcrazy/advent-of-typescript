@@ -1,0 +1,1 @@
+type DecipherNaughtyList<S extends string, Result = never> = S extends `${infer L}/${infer R}`? DecipherNaughtyList<R, Result | L>: Result | S;

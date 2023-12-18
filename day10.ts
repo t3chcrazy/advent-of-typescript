@@ -1,0 +1,1 @@
+type StreetSuffixTester<Address extends string, Suffix extends string> = Address extends `${infer R}${Suffix}`? true: false;
